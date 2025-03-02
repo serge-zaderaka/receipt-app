@@ -1,0 +1,48 @@
+.container {
+  margin-inline: auto;
+  max-width: 450px;
+  padding: 1rem;
+}
+
+.add-product {
+  margin-top: 20px;
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.receipt {
+  width: 100%;
+}
+
+.quantity {
+  text-align: center;
+  input {
+    max-width: 50px;
+    width: 100%;
+  }
+}
+
+.price {
+  text-align: center;
+
+  input {
+    max-width: 55px;
+    width: 100%;
+  }
+}
+
+.amount {
+  text-align: end;
+}
+
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.check-all {
+  text-align: start;
+}
